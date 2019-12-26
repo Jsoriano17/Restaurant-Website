@@ -13,10 +13,33 @@ body {
     padding: 0;
 }
 
+a {
+    font-size: 20px;
+}
+
 /************************
 navigation
 */
 
+nav { 
+    background: rgb(43, 43, 43);
+}
+
+.nav {
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.nav-link {
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-link:hover {
+    color: rgb(47, 255, 175);
+}
 
 /************************
 web background
