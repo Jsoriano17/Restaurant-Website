@@ -19,7 +19,12 @@ a {
 }
 
 p {
-    color: rgb(223, 223, 223);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
 }
 
 h2 {
@@ -49,14 +54,34 @@ nav {
     color: rgb(47, 255, 175);
 }
 
+.name {
+    border: 1px solid white;
+    padding: 5px 17px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
 /************************
 web background
 */
+
+#web-back {
+    position: relative;
+}
 
 .web-back {
     -webkit-box-shadow: 0px 7px 1px #000000;
     -moz-box-shadow: 0px 7px 1px #000000;
     box-shadow: 0px 7px 10px #000000;
+}
+
+.web-h1 {
+ position: absolute;
+ z-index: 1;
+ left: 500px;
+ top: 200px;
+ display: flex;
+ flex-direction: column;
 }
 
 
