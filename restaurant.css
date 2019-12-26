@@ -235,11 +235,50 @@ sec 4
 
 
 /************************
-contacts
+sec-5
 */
 
 .sec-5 {
     width: 100%;
-    height: 400px;
+    height: 700px;
     background: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-5 h2 {
+    color: white; 
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.sh {
+    margin-right: 300px;
+}
+
+.locations {
+    flex-direction: column;
+   justify-content: center;
+   margin-right: 100px;
+
+}
+
+/************************
+Contacts
+*/
+.contacts {
+    width: 100%;
+    height: 100px;
+    background: rgb(133, 132, 132);
+}
+
+.contacts li {
+    margin: 0 50px;
+    color: white;
+}
+
+.contacts a {
+    color: white;
 }
