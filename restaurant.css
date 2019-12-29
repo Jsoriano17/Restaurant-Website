@@ -304,9 +304,6 @@ TODO: phone
         font-size: 20px;
     }
     
-    h1 {
-        color: green;
-    }
     
     h2 {
         color: rgb(212, 212, 212);
@@ -406,33 +403,42 @@ sec 1
 
 
 /************************
-sec 2
+sec 2 TODO:
 */
 .sec-2 {
     width: 100%;
-    height: 800px;
-    position: relative;
-
+    height: 700px;
+    background: rgb(0, 0, 0);
 }
 
-
 .menu1 {
-    position: absolute;
     display: flex;
+    position: static;
     flex-direction: column;
-    align-items: flex-start;
-    top: 100px;
-    right: 200px;
+    align-items: center;
 }
 
 .menu1 h1 {
-    font-size: 60px;
-    margin-bottom: 50px;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 .menu1 li {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu1 li:hover {
+    color: rgb(47, 255, 175);
+    text-decoration: underline;
+}
+
+.first-mn {
+    display: none;
 }
 
 /************************
@@ -441,9 +447,9 @@ specials
 
 .special-con {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .specials h1 {
@@ -454,7 +460,7 @@ specials
 }
 
 .card {
-    margin: 0 50px;
+    margin: 15px 50px;
 }
 
 .card-text {
@@ -468,31 +474,37 @@ sec 3
 
 .sec-3 {
     width: 100%;
-    height: 800px;
+    height: 700px;
     background: rgb(56, 56, 56);
     position: relative;
 }
 
 .menu2 {
-    position: absolute;
+    position: static;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    top: 100px;
-    left: 200px;
+    align-items: center;
+ 
 }
 
 .menu2 h1 {
-    font-size: 60px;
-    color: black;
-    margin-bottom: 50px;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 .menu2 li {
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
 }
 
+.menu2 li:hover {
+    color: rgb(47, 255, 175);
+    text-decoration: underline;
+}
 
 
 /************************
@@ -535,6 +547,7 @@ sec-5
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .sec-5 h2 {
