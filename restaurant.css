@@ -417,26 +417,29 @@ web background
 
 #web-back {
     position: relative;
-    display: none;
-   
+}
+
+.phone-back {
+    -webkit-box-shadow: 0px 7px 1px #000000;
+    -moz-box-shadow: 0px 7px 1px #000000;
+    box-shadow: 0px 7px 10px #000000;
 }
 
 .web-back {
     -webkit-box-shadow: 0px 7px 1px #000000;
     -moz-box-shadow: 0px 7px 1px #000000;
     box-shadow: 0px 7px 10px #000000;
-  
+    display: none;
 }
-
 
 .web-h1 {
  position: absolute;
  z-index: 1;
- left: 100px;
- top: 250px;
+ left: 0px;
+ top: 50px;
+ padding: 10px;
  display: flex;
  flex-direction: column;
- display: none;
 }
 
 
