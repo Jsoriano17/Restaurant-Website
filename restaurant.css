@@ -487,7 +487,7 @@ sec 2
 .sec-2 {
     width: 100%;
     height: 700px;
-    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(141, 141, 141) , rgb(63, 63, 63));
 }
 
 .menu1 {
@@ -554,7 +554,7 @@ sec 3
 .sec-3 {
     width: 100%;
     height: 650px;
-    background: rgb(56, 56, 56);
+    background-image: linear-gradient(to bottom, rgb(109, 109, 109), rgb(141, 141, 141) , rgb(63, 63, 63));
     position: relative;
 }
 
