@@ -725,6 +725,7 @@ TODO: desktop
     .nav {
         padding: 20px;
         margin-right: 60px;
+        flex-direction: row;
     }
     
     .nav-link {
@@ -743,8 +744,12 @@ TODO: desktop
         padding: 5px 17px;
         margin-top: 10px;
         margin-left: 70px;
+        display: block;
     }
     
+    #second {
+        display: none;
+    }
     /************************
     web background
     */
@@ -757,18 +762,23 @@ TODO: desktop
         -webkit-box-shadow: 0px 7px 1px #000000;
         -moz-box-shadow: 0px 7px 1px #000000;
         box-shadow: 0px 7px 10px #000000;
+        display: block;
     }
     
     .web-h1 {
      position: absolute;
      z-index: 1;
-     left: 500px;
+     left: 400px;
      top: 250px;
      display: flex;
      flex-direction: column;
     }
     
-    
+    .phone-back {
+        display: none;
+    }
+
+
     /************************
     sec 1
     */
@@ -799,9 +809,14 @@ TODO: desktop
         margin-left: 100px;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
     
     
+    .chef-con2 p {
+        text-indent: 0px;
+        font-size: 21px;
+    }
     
     /************************
     sec 2
@@ -810,7 +825,6 @@ TODO: desktop
         width: 100%;
         height: 800px;
         position: relative;
-    
     }
     
     
@@ -831,6 +845,12 @@ TODO: desktop
     .menu1 li {
         color: white;
         font-size: 30px;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .first-mn {
+        display: block;
     }
     
     /************************
@@ -889,6 +909,9 @@ TODO: desktop
     .menu2 li {
         color: black;
         font-size: 30px;
+        text-align: left;
+        margin: 0;
+        list-style-type: decimal;
     }
     
     
